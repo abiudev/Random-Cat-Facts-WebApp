@@ -39,7 +39,7 @@ export default function Header() {
         <div className="hidden md:flex justify-end space-x-6">
           <ol className=" font-bold flex space-x-4 list-none font-roboto-condensed">
             <li>
-              <a href="#">Home</a>
+              <a href="https://random-cat-facts-ten.vercel.app">Home</a>
             </li>
             <li>
               <a href="https://abiud.vercel.app" target="_blank">
@@ -54,7 +54,7 @@ export default function Header() {
             </li>
           </ol>
           <a
-            href="https://github.com/your-source-code-link"
+            href="https://github.com/abiudev/Random-Cat-Facts-WebApp"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
@@ -77,17 +77,22 @@ export default function Header() {
         <div className="md:hidden bg-yellow-400">
           <ol className="space-y-2 list-none p-4 font-roboto-condensed">
             <li>
-              <a href="#">Home</a>
+              <a href="https://random-cat-facts-ten.vercel.app">Home</a>
             </li>
             <li>
-              <a href="#">Dictionary</a>
+              <a href="https://abiud.vercel.app" target="_blank">
+                Developer
+              </a>
             </li>
             <li>
-              <a href="#">Sign Up</a>
+              <a href="https://catfact.ninja" target="_blank">
+                {" "}
+                More
+              </a>
             </li>
           </ol>
           <a
-            href="https://catfact.ninja"
+            href="https://github.com/abiudev/Random-Cat-Facts-WebApp"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-400  mr-3 ml-2 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
@@ -98,7 +103,7 @@ export default function Header() {
             href="https://catfact.ninja"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
+            className="bg-blue-400 rounded-lg mb-2 px-3 py-1 font-roboto-condensed inline-block text-center"
           >
             API 🔀
           </a>
