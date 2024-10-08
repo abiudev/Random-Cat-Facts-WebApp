@@ -57,16 +57,15 @@ export default function Header() {
             href="https://github.com/abiudev/Random-Cat-Facts-WebApp"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
+            className="bg-green-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-green-500"
           >
-            {" "}
-            Source Code{" "}
+            Source Code
           </a>
           <a
             href="https://catfact.ninja"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
+            className="bg-blue-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-blue-500"
           >
             API 🔀
           </a>
@@ -95,7 +94,7 @@ export default function Header() {
             href="https://github.com/abiudev/Random-Cat-Facts-WebApp"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-400  mr-3 ml-2 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
+            className="bg-green-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-green-500"
           >
             Source Code
           </a>
@@ -103,7 +102,7 @@ export default function Header() {
             href="https://catfact.ninja"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-400 rounded-lg mb-2 px-3 py-1 font-roboto-condensed inline-block text-center"
+            className="bg-blue-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-blue-500"
           >
             API 🔀
           </a>
