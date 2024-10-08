@@ -102,7 +102,7 @@ export default function Header() {
             href="https://catfact.ninja"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-blue-500"
+            className="bg-blue-400 mb-2 ml-2 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-blue-500"
           >
             API 🔀
           </a>

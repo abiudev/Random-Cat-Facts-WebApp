@@ -55,7 +55,7 @@ export default function CatFactsCarousel() {
               </div>
             )}
             <img
-              src={images[currentIndex % images.length] || "/fallback.jpg"}
+              src={images[currentIndex % images.length]}
               alt={`Cat Fact ${currentIndex + 1}`}
               className={`object-cover w-full h-full absolute inset-0 ${
                 loading ? "hidden" : "block"
@@ -63,7 +63,7 @@ export default function CatFactsCarousel() {
               onLoad={handleImageLoad}
             />
             <div className="relative z-10 flex flex-col justify-center items-center h-full">
-              <div className="bg-black bg-opacity-50 p-4 rounded-lg">
+              <div className="bg-black ml-2 mr-2 bg-opacity-50 p-4 rounded-lg">
                 <p className="text-lg font-semibold text-center text-white">
                   {catFacts[currentIndex]}
                 </p>
@@ -73,7 +73,7 @@ export default function CatFactsCarousel() {
         )}
         <button
           onClick={nextFact}
-          className="z-10 p-3 bg-yellow-400 rounded-full shadow-md hover:bg-yellow-300 ml-4"
+          className="z-10 p-3 bg-yellow-400 rounded-full shadow-md hover:bg-yellow-200 ml-4"
         >
           &#8250;
         </button>

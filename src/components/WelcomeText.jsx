@@ -1,6 +1,6 @@
 export default function WelcomeText() {
   return (
-    <div className=" font-roboto mx-auto mt-3 mb-0 max-w-4xl p-6 border-2 border-yellow-400 rounded-lg bg-yellow-400 shadow-lg">
+    <div className=" font-roboto mx-auto mt-3 mb-0 max-w-4xl p-6 border-2 border-yellow-600 rounded-lg bg-yellow-400 shadow-lg">
       <h1 className="text-3xl font-bold text-center">RANDOM CAT FACTS</h1>
       <h2 className="  text-xl px text-black font-mukta mt-4">
         Welcome to the Random Cat Facts Carousel! This webapp fetches data from
