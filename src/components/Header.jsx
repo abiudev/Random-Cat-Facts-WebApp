@@ -75,7 +75,7 @@ export default function Header() {
 
       {isOpen && (
         <div className="md:hidden bg-yellow-400">
-          <ol className=" font-bold flex space-x-4 list-none font-roboto-condensed">
+          <ol className="space-y-2 list-none p-4 font-roboto-condensed">
             <li>
               <a href="#">Home</a>
             </li>
