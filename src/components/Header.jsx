@@ -75,15 +75,20 @@ export default function Header() {
 
       {isOpen && (
         <div className="md:hidden bg-yellow-400">
-          <ol className="space-y-2 list-none p-4 font-roboto-condensed">
+          <ol className=" font-bold flex space-x-4 list-none font-roboto-condensed">
             <li>
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Dictionary</a>
+              <a href="https://abiud.vercel.app" target="_blank">
+                Developer
+              </a>
             </li>
             <li>
-              <a href="#">Sign Up</a>
+              <a href="https://catfact.ninja" target="_blank">
+                {" "}
+                More
+              </a>
             </li>
           </ol>
           <a
