@@ -39,7 +39,7 @@ export default function Header() {
         <div className="hidden md:flex justify-end space-x-6">
           <ol className=" font-bold flex space-x-4 list-none font-roboto-condensed">
             <li>
-              <a href="#">Home</a>
+              <a href="https://random-cat-facts-ten.vercel.app">Home</a>
             </li>
             <li>
               <a href="https://abiud.vercel.app" target="_blank">
@@ -77,7 +77,7 @@ export default function Header() {
         <div className="md:hidden bg-yellow-400">
           <ol className="space-y-2 list-none p-4 font-roboto-condensed">
             <li>
-              <a href="#">Home</a>
+              <a href="https://random-cat-facts-ten.vercel.app">Home</a>
             </li>
             <li>
               <a href="https://abiud.vercel.app" target="_blank">
