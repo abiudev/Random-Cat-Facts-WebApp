@@ -54,7 +54,7 @@ export default function Header() {
             </li>
           </ol>
           <a
-            href="https://github.com/your-source-code-link"
+            href="https://github.com/abiudev/Random-Cat-Facts-WebApp"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
@@ -92,7 +92,7 @@ export default function Header() {
             </li>
           </ol>
           <a
-            href="https://catfact.ninja"
+            href="https://github.com/abiudev/Random-Cat-Facts-WebApp"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-400  mr-3 ml-2 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center"
