@@ -68,7 +68,7 @@ export default function Header() {
             className="bg-blue-400 rounded-lg px-3 py-1 font-roboto-condensed inline-block text-center transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-blue-500"
           >
             API 🔀
-          </a>
+          </a> 
         </div>
       </div>
 
@@ -80,7 +80,7 @@ export default function Header() {
             </li>
             <li>
               <a href="https://abiud.vercel.app" target="_blank">
-                Developer
+                Project Developer
               </a>
             </li>
             <li>
